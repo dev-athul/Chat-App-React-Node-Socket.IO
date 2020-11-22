@@ -1,0 +1,46 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-bluepink{
+    background: linear-gradient(to right, #9695da, #ac6767);
+    color: #fff;
+}
+.joinOuter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.joinForm{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    padding: 2em
+}
+.heading{
+    border-bottom: 4px solid white;
+    padding-bottom: .25em;
+    margin-bottom: .5em ;
+    
+}
+.joinInput{
+    border: 2px solid white;
+    border-radius: .2em;
+    padding:.5em;
+    margin-bottom: 2em;
+    font: 1em bold sans-serif;
+}
+.joinButton{
+    padding:.5em;
+    background-color: #5e5ed4;
+    color: white;
+
+}
+#athul{
+    display: flex;
+    justify-content: center;
+    margin: .5em;
+}
